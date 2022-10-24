@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Mega',sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.75rem;
+  padding-top: 1.8rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+nav {
+  width: 80%;
+  font-size: 1.375rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.8rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;  
+  justify-content: space-around;
+}
+
+li {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+a:visited {
+  color: black;
+}
+
+#missionContainer {
+  background-image: url('images/skyscrapers.webp');
+  background-repeat: repeat;
+  opacity: 0.9;
+  width: 100%;
+  height: 20.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#mission {
+  margin-top: 2rem;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2.06rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
