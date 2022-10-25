@@ -19,7 +19,7 @@ header {
 
 h1 {
   font-size: 2.75rem;
-  padding-top: 1.8rem;
+  padding-top: 1.85rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
@@ -27,7 +27,7 @@ h1 {
 nav {
   width: 80%;
   font-size: 1.375rem;
-  padding-top: 2.5rem;
+  padding-top: 2.45rem;
   padding-bottom: 2.8rem;
 }
 
@@ -42,7 +42,7 @@ li {
   padding-right: 0.6rem;
 }
 
-a:visited {
+a,a:visited {
   color: black;
 }
 
@@ -58,7 +58,7 @@ a:visited {
 }
 
 #mission {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
   background-color: white;
   width: 100%;
   display: flex;
@@ -69,7 +69,7 @@ a:visited {
 h2 {
   font-size: 2.06rem;
   padding-top: 0.65rem;
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.675rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
@@ -82,3 +82,22 @@ h3 {
   padding-right: 0.6rem;
 }
 
+#portfolio {
+  padding-top: 4.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#figureContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid pink;
+}
+
+#portfolio img {
+  max-width: 12rem;
+}
