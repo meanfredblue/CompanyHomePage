@@ -19,7 +19,7 @@ header {
 
 h1 {
   font-size: 2.75rem;
-  padding-top: 1.85rem;
+  padding-top: 1.825rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
@@ -27,7 +27,7 @@ h1 {
 nav {
   width: 80%;
   font-size: 1.375rem;
-  padding-top: 2.45rem;
+  padding-top: 2.5rem;
   padding-bottom: 2.8rem;
 }
 
@@ -58,7 +58,7 @@ a,a:visited {
 }
 
 #mission {
-  margin-top: 2.2rem;
+  margin-top: 2.1rem;
   background-color: white;
   width: 100%;
   display: flex;
@@ -68,7 +68,7 @@ a,a:visited {
 
 h2 {
   font-size: 2.06rem;
-  padding-top: 0.65rem;
+  padding-top: 10px;
   padding-bottom: 0.675rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
@@ -76,28 +76,45 @@ h2 {
 
 h3 {
   font-size: 1.375rem;
-  padding-top: 0.6rem;
+  padding-top: 9px;
   padding-bottom: 0.6rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
 
 #portfolio {
-  padding-top: 4.4rem;
+  padding-top: 70px;
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  min-height: 500px;
 }
 
 #figureContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;  
   width: 100%;
-  border: 1px solid pink;
+  opacity: 0.9;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+figcaption {
+  font-size: 1.375rem;
+  font-weight: bold;
+  width: 250px;
+  padding-top: 1px;  
 }
 
 #portfolio img {
-  max-width: 12rem;
+  width: 200px;
+  height: auto;
+  margin: 10px;
 }
