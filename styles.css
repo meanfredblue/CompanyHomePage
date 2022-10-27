@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Lexend Mega',sans-serif;
-  text-align: center;
 }
 
 body {
@@ -121,6 +120,9 @@ figcaption {
 
 #team {
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .teamContainer {
@@ -158,6 +160,7 @@ figcaption {
 
 footer {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-around;
   font-size: 1.14rem;
@@ -177,6 +180,7 @@ footer h2 {
 .contactInfo {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content:space-between;
   height: 75px;
   padding-bottom: 14px;
@@ -186,3 +190,234 @@ footer h2 {
   padding-top: 45px;
   padding-bottom: 15px;
 }
+
+em {
+  color: red;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.example {
+  text-align: left;
+  margin: 20px;
+}
+
+.exampleContainer {
+  border: 1px solid red;
+  width: 800px;
+  height: 400px;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.box-tall {
+  background-color: dodgerblue;
+  height: 70px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.box-wide {
+  background-color: dodgerblue;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.box-min {
+  background-color: dodgerblue;
+  min-height: 50px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.exampleContainer.ex1 {
+  display: flex;
+}
+
+.exampleContainer.ex2 {
+  display: inline-flex;
+}
+
+.exampleContainer.ex3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex8 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex9 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.exampleContainer.ex10 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.exampleContainer.ex11 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.exampleContainer.ex12 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.exampleContainer.ex13 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.exampleContainer.ex14 {
+  width: 800px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-bottom: 60px;
+}
+
+.exampleContainer.ex15 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow:visible;  
+}
+
+.no-shrink {
+  flex-shrink: 0;
+}
+
+.exampleContainer.ex16 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow:hidden;  
+}
+
+.exampleContainer.ex17 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;  
+}
+
+.box-nosize {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
+}
+
+.exampleContainer.ex18 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.exampleContainer.ex19 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.exampleContainer.ex20 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.exampleContainer.ex21 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.exampleContainer.ex22 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content:center;
+}
+
+.exampleContainer.ex23 {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content:stretch;
+}
+
